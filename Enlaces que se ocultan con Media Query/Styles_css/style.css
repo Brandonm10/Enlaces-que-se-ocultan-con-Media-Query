@@ -1,0 +1,83 @@
+body{
+    background-color: lightskyblue;
+}
+h1{
+    text-align: center;
+    margin-bottom: 50px;
+}
+li{
+    padding: 25px 70px;
+    margin: 1px;
+    border: solid blue 2px;
+    display: inline;
+}
+li:hover{
+    background: yellow;
+    cursor: pointer;
+}
+
+@media only screen and (max-width:1200px) {
+    .d1{
+        visibility: visible;
+    }
+    .d2{
+        visibility: visible;
+    }
+    .d3{
+        visibility: visible;
+    }
+    .d4{
+        visibility: visible;
+    }   
+}
+@media only screen and (max-width:1024px) {
+    li{
+        padding: 25px 70px;
+    }
+    .d1{
+        visibility: visible;
+    }
+    .d2{
+        visibility: visible;
+    }
+    .d3{
+        visibility: visible;
+    }
+    .d4{
+        visibility: hidden;
+    }   
+}
+@media only screen and (max-width:768px) {
+    li{
+        padding: 25px 70px;
+    }
+    .d1{
+        visibility: visible;
+    }
+    .d2{
+        visibility: visible;
+    }
+    .d3{
+        visibility: hidden;
+    }
+    .d4{
+        visibility: hidden;
+    }   
+}
+@media only screen and (max-width:480px) {
+    li{
+        padding: 25px 70px;
+    }
+    .d1{
+        visibility: visible;
+    }
+    .d2{
+        visibility: hidden;
+    }
+    .d3{
+        visibility: hidden;
+    }
+    .d3{
+        visibility: hidden;
+    }   
+}
